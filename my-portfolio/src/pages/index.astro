@@ -1,0 +1,21 @@
+---
+import Hero from '../components/Hero.tsx';
+import Layout from '../layouts/Layout.astro';
+import '../styles/global.css';
+import About from '../components/About.tsx';
+import Skills from '../components/Skills.tsx';
+import Resume from '../components/Resume.tsx';
+
+import Contact from '../components/Contact.tsx';
+import Footer from '../components/Footer.tsx';
+---
+
+<Layout>
+	<Hero client:load/>
+	<About client:idle/>
+	<Skills client:idle/>
+	<Resume client:idle/>
+
+	<Contact client:idle/>
+	<Footer client:idle />
+</Layout>
