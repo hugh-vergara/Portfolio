@@ -39,7 +39,7 @@ const Hero = () => {
                     Hugh Mclude Vergara
                 </h1>
                 <p className="text-2xl md:text-3xl text-gray-800 font-semibold mb-4">
-                    I'm a<span ref={typedRef}></span>
+                    I'm a <span ref={typedRef}></span>
                 </p>
 
                 <div className="flex space-x-4 text-gray-700 text-xl">
