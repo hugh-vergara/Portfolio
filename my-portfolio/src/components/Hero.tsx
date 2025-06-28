@@ -12,7 +12,7 @@ const Hero = () => {
             strings: [
                 'Web Developer',
                 'Freelancer',
-                'AI Coder',
+                'A.I Developer',
             ],
             typeSpeed: 60,
             backSpeed: 40,
