@@ -4,7 +4,7 @@ import 'aos/dist/aos.css';
 
 const skills = [
     { label: 'HTML & CSS', value: 100 },
-    { label: 'JavaScript (React, Astro, Angular, Vue)', value: 75 },
+    { label: 'JavaScript ( Astro, Vue)', value: 75 },
     { label: 'Python & Django', value: 75 },
     { label: 'PHP (Laravel)', value: 80 },
     { label: 'C', value: 90 },
