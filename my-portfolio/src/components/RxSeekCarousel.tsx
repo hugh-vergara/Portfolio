@@ -4,14 +4,16 @@ import Login from "../assets/carousel/Rxseek/login.png";
 import Disclaimer from "../assets/carousel/Rxseek/disclaimer.png";
 import Homescreen from "../assets/carousel/Rxseek/homescreen.png";
 import Chat from "../assets/carousel/Rxseek/chat.png";
+import AdminLogin from "../assets/carousel/Rxseek/adminLogin.png";
 import Admin from "../assets/carousel/Rxseek/admin.png";
 
 const slides = [
-    { src: Logo.src, alt: "RxSeek Logo", description: "This is the logo of RxSeek." },
+    { src: Logo.src, alt: "RxSeek Logo", description: "RxSeek." },
     { src: Login.src, alt: "Login Page", description: "Login interface for users." },
     {src: Disclaimer.src, alt: "Disclaimer", description: "Disclaimer for users." },
     {src:Homescreen.src, alt: "Homescreen", description: "Homescreen with chat history" },
     {src:Chat.src, alt:"Chat", description: "Chat Interface with OCR" },
+    {src:AdminLogin.src, alt:"Admin Login", description: "Admin Login page" },
     {src:Admin.src, alt:"Admin", description: "Admin for updating datasets" },
 
 
