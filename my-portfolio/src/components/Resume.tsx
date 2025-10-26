@@ -43,9 +43,11 @@ const Resume = () => {
                         <h3 className="text-[26px] font-bold my-5">Professional Experience</h3>
 
                         <div className="relative pl-6 border-l-2 border-blue-500 pb-6">
-                            <span className="absolute w-4 h-4 bg-white border-2 border-blue-500 rounded-full left-[-9px] top-0" />
+                            <span
+                                className="absolute w-4 h-4 bg-white border-2 border-blue-500 rounded-full left-[-9px] top-0"/>
                             <h4 className="uppercase text-[18px] font-semibold text-gray-700 mb-2">Internship</h4>
-                            <h5 className="text-sm font-semibold bg-gray-100 px-3 py-1 inline-block mb-2">February - June 2025</h5>
+                            <h5 className="text-sm font-semibold bg-gray-100 px-3 py-1 inline-block mb-2">February -
+                                June 2025</h5>
                             <p className="italic text-sm mb-2">Yoshii Software Solutions</p>
                             <ul className="list-disc pl-5">
                                 <li className="pb-2">Used Git, GitLab CI/CD, Docker</li>
@@ -57,8 +59,10 @@ const Resume = () => {
                         </div>
 
                         <div className="relative pl-6 border-l-2 border-blue-500">
-                            <span className="absolute w-4 h-4 bg-white border-2 border-blue-500 rounded-full left-[-9px] top-0" />
-                            <h4 className="uppercase text-[18px] font-semibold text-gray-700 mb-2">Data Analytics Training</h4>
+                            <span
+                                className="absolute w-4 h-4 bg-white border-2 border-blue-500 rounded-full left-[-9px] top-0"/>
+                            <h4 className="uppercase text-[18px] font-semibold text-gray-700 mb-2">Data Analytics
+                                Training</h4>
                             <h5 className="text-sm font-semibold bg-gray-100 px-3 py-1 inline-block mb-2">2024</h5>
                             <p className="italic text-sm mb-2">Google Data Analytics – Coursera</p>
                             <ul className="list-disc pl-5">
@@ -77,6 +81,22 @@ const Resume = () => {
                                 </li>
                             </ul>
                         </div>
+
+
+                        <div className="relative pl-6 border-l-2 border-blue-500">
+                            <span
+                                className="absolute w-4 h-4 bg-white border-2 border-blue-500 rounded-full left-[-9px] top-0"/>
+                            <h4 className="uppercase text-[18px] font-semibold text-gray-700 mb-2">Junior Software
+                                Developer</h4>
+                            <h5 className="text-sm font-semibold bg-gray-100 px-3 py-1 inline-block mb-2">2025 –
+                                Advanced World Solutions (AWS)</h5>
+                            <p className="italic text-sm mb-2">Worked with Japanese clients on internal systems</p>
+                            <ul className="list-disc pl-5">
+
+                            </ul>
+                        </div>
+
+
                     </div>
                 </div>
             </div>
